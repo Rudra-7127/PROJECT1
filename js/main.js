@@ -34,28 +34,28 @@ const MENU = [
   {
     id: 4, cat: 'gujarati', name: 'Undhiyu',
     desc: 'Mixed winter vegetables slow-cooked in an earthen pot with a burst of spices.',
-    price: 250, badge: 'Seasonal', spice: 2,
+    price: 250, badge: 'Seasonal', spice: 1,
     img: 'https://i.pinimg.com/736x/a8/e6/3a/a8e63a605b1b7fcd9039604a3d1a5d21.jpg',
     catLabel: 'Gujarati Special'
   },
   {
     id: 5, cat: 'gujarati', name: 'Dal Dhokli',
     desc: 'Spiced wheat-flour dumplings simmered in a fragrant toor dal curry.',
-    price: 180, badge: 'Comfort Food', spice: 2,
+    price: 180, badge: 'Comfort Food', spice:0,
     img: 'https://i0.wp.com/www.flavoursonplate.com/wp-content/uploads/2020/07/Dal-dhokli-featured-image.jpg?fit=1200%2C800&ssl=1',
     catLabel: 'Gujarati Special'
   },
   {
     id: 6, cat: 'gujarati', name: 'Kadhi Khichdi',
     desc: 'Creamy buttermilk kadhi served alongside perfectly cooked moong-dal khichdi.',
-    price: 160, badge: null, spice: 1,
+    price: 160, badge: null, spice: 0,
     img: 'https://tse3.mm.bing.net/th/id/OIP.OqfmLzV8MApEbxU1gmFUKAHaEK?pid=Api&P=0&h=180',
     catLabel: 'Gujarati Special'
   },
   {
     id: 7, cat: 'gujarati', name: 'Fafda Gathiya',
     desc: 'Crispy gram-flour snacks served with tangy green chutney and raw papaya pickle.',
-    price: 100, badge: null, spice: 1,
+    price: 100, badge: null, spice: 0,
     img: 'https://img.freepik.com/premium-photo/crispy-fafda-with-sweet-jalebi-is-indian-snack-most-popular-gujarat-selective-focus_466689-71779.jpg?w=2000',
     catLabel: 'Gujarati Special'
   },
@@ -78,7 +78,7 @@ const MENU = [
   {
     id: 10, cat: 'starters', name: 'Hara Bhara Kabab',
     desc: 'Patties made from spinach, peas and spices, pan-fried to golden perfection.',
-    price: 200, badge: null, spice: 1,
+    price: 200, badge: null, spice: 0,
     img: 'https://img.freepik.com/premium-photo/shaam-savera-is-spinach-kofta-curry-where-stuffing-is-made-from-paneer-kofta-made-from-spinach_466689-85947.jpg?w=996',
     catLabel: 'Starter'
   },
@@ -99,7 +99,7 @@ const MENU = [
   {
     id: 13, cat: 'starters', name: 'Masala Papad',
     desc: 'Crispy papads topped with diced onions, tomatoes and signature chutneys.',
-    price: 80, badge: null, spice: 1,
+    price: 80, badge: null, spice: 0,
     img: 'http://i1.wp.com/kalimirchbysmita.com/wp-content/uploads/2016/09/Masala-Papad-02.jpg?resize=1024%2C733',
     catLabel: 'Starter'
   },
@@ -115,43 +115,43 @@ const MENU = [
   {
     id: 15, cat: 'mains', name: 'Dal Makhani',
     desc: 'Black lentils slow-cooked overnight with butter, cream and aromatic spices.',
-    price: 250, badge: null, spice: 1,
-    img: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&h=350&fit=crop&q=80',
+    price: 250, badge: null, spice: 0,
+    img: 'https://rainbowplantlife.com/wp-content/uploads/2021/06/Dal-Makhani-edited-photos-3-of-6.jpg',
     catLabel: 'Main Course'
   },
   {
     id: 16, cat: 'mains', name: 'Palak Paneer',
     desc: 'Fresh cottage cheese in smooth, garlicky spinach gravy.',
-    price: 280, badge: null, spice: 2,
-    img: 'https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=500&h=350&fit=crop&q=80',
+    price: 280, badge: null, spice: 0,
+    img: 'https://img.freepik.com/premium-photo/indian-palak-paneer-with-spinach-cottage-cheese_1072167-2540.jpg?w=2000',
     catLabel: 'Main Course'
   },
   {
     id: 17, cat: 'mains', name: 'Chole Masala',
     desc: 'Hearty chickpeas slow-cooked in a bold tangy-spiced onion-tomato masala.',
     price: 220, badge: null, spice: 3,
-    img: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse3.mm.bing.net/th/id/OIP.sAAJ_Wytgt8zCWOm4gpaKgHaJD?pid=Api&P=0&h=180',
     catLabel: 'Main Course'
   },
   {
     id: 18, cat: 'mains', name: 'Veg Dum Biryani',
     desc: 'Fragrant basmati rice dum-cooked with seasonal vegetables and saffron.',
     price: 280, badge: "Chef's Pick", spice: 2,
-    img: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse1.mm.bing.net/th/id/OIP.fGqnj5iqdXPtxhCtvsH2bwHaFE?pid=Api&P=0&h=180',
     catLabel: 'Main Course'
   },
   {
     id: 19, cat: 'mains', name: 'Kadai Paneer',
     desc: 'Paneer and peppers tossed in a bold, smoky kadai masala.',
-    price: 290, badge: null, spice: 3,
-    img: 'https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=500&h=350&fit=crop&q=80',
+    price: 290, badge: null, spice: 1,
+    img: 'https://tse1.mm.bing.net/th/id/OIP.KuPETpOeYDIPB1C8tVp30wHaE7?pid=Api&P=0&h=180',
     catLabel: 'Main Course'
   },
   {
-    id: 20, cat: 'mains', name: 'Shahi Korma',
+    id: 20, cat: 'mains', name: ' Veg Shahi Korma',
     desc: 'Mixed vegetables and paneer in a creamy cashew-and-saffron royal gravy.',
-    price: 320, badge: 'Premium', spice: 1,
-    img: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&h=350&fit=crop&q=80',
+    price: 320, badge: 'Premium', spice: 0,
+    img: 'https://tse2.mm.bing.net/th/id/OIP.Djc96WGgftCslo7VitvStQHaE7?pid=Api&P=0&h=180',
     catLabel: 'Main Course'
   },
 
@@ -160,35 +160,35 @@ const MENU = [
     id: 21, cat: 'breads', name: 'Butter Naan',
     desc: 'Soft leavened bread baked in tandoor, generously slathered with butter.',
     price: 50, badge: null, spice: 0,
-    img: 'https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse2.mm.bing.net/th/id/OIP.cMa0VSkJUlyY8gvV3xc-ywHaEK?pid=Api&P=0&h=180',
     catLabel: 'Breads'
   },
   {
-    id: 22, cat: 'breads', name: 'Garlic Naan',
+    id: 22, cat: 'breads', name: ' Butter Garlic Naan',
     desc: 'Tandoor-baked naan topped with minced garlic, butter and coriander.',
     price: 60, badge: 'Popular', spice: 0,
-    img: 'https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse2.mm.bing.net/th/id/OIP.b4XOfZiT9Kdz0FS8l9LP4QHaEH?pid=Api&P=0&h=180',
     catLabel: 'Breads'
   },
   {
     id: 23, cat: 'breads', name: 'Thepla (3 pcs)',
     desc: 'Soft Gujarati flatbread made with fenugreek leaves and warming spices.',
-    price: 80, badge: 'Gujarati Fav', spice: 1,
-    img: 'https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=500&h=350&fit=crop&q=80',
+    price: 80, badge: 'Gujarati Fav', spice: 0,
+    img: 'https://tse3.mm.bing.net/th/id/OIP.YtMed2qRajeRSoXxhrbKgQHaFJ?pid=Api&P=0&h=180',
     catLabel: 'Breads'
   },
   {
     id: 24, cat: 'breads', name: 'Puri (4 pcs)',
     desc: 'Golden, puffed deep-fried wheat bread — perfect with sabji.',
     price: 60, badge: null, spice: 0,
-    img: 'https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse4.mm.bing.net/th/id/OIP.vvX6stDe_VAkeCIk9_kD6gHaHa?pid=Api&P=0&h=180',
     catLabel: 'Breads'
   },
   {
     id: 25, cat: 'breads', name: 'Missi Roti',
     desc: 'Rustic whole-wheat and gram-flour roti seasoned with ajwain.',
-    price: 45, badge: null, spice: 1,
-    img: 'https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=500&h=350&fit=crop&q=80',
+    price: 45, badge: null, spice: 0,
+    img: 'https://tse1.mm.bing.net/th/id/OIP.9whh4n9vpXelGolxIwDi-AHaEK?pid=Api&P=0&h=180',
     catLabel: 'Breads'
   },
 
@@ -196,8 +196,8 @@ const MENU = [
   {
     id: 26, cat: 'desserts', name: 'Kesar Shrikhand',
     desc: 'Strained yogurt sweetened with sugar and perfumed with saffron and cardamom.',
-    price: 120, badge: 'Must Try', spice: 0,
-    img: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500&h=350&fit=crop&q=80',
+    price: 150, badge: 'Must Try', spice: 0,
+    img: 'https://tse1.mm.bing.net/th/id/OIP.23hlUN47JFKclHp7mKwJsgHaJ4?pid=Api&P=0&h=180',
     catLabel: 'Dessert'
   },
   {
