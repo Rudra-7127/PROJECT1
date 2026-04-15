@@ -21,42 +21,42 @@ const MENU = [
     id: 2, cat: 'gujarati', name: 'Steamed Dhokla',
     desc: 'Spongy steamed chickpea-flour cakes garnished with mustard seeds and fresh coriander.',
     price: 120, badge: 'Must Try', spice: 0,
-    img: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse2.mm.bing.net/th/id/OIP.jJYfilXMnZZrMoG4RbVeagHaE8?pid=Api&P=0&h=180',
     catLabel: 'Gujarati Special'
   },
   {
     id: 3, cat: 'gujarati', name: 'Khandvi',
     desc: 'Delicate rolled gram-flour snack finished with coconut, sesame & curry leaves.',
     price: 110, badge: null, spice: 0,
-    img: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&h=350&fit=crop&q=80',
+    img: 'https://www.mapsofindia.com/ci-moi-images/my-india/Gujrati-Khandvi.jpg',
     catLabel: 'Gujarati Special'
   },
   {
     id: 4, cat: 'gujarati', name: 'Undhiyu',
     desc: 'Mixed winter vegetables slow-cooked in an earthen pot with a burst of spices.',
     price: 250, badge: 'Seasonal', spice: 2,
-    img: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&h=350&fit=crop&q=80',
+    img: 'https://i.pinimg.com/736x/a8/e6/3a/a8e63a605b1b7fcd9039604a3d1a5d21.jpg',
     catLabel: 'Gujarati Special'
   },
   {
     id: 5, cat: 'gujarati', name: 'Dal Dhokli',
     desc: 'Spiced wheat-flour dumplings simmered in a fragrant toor dal curry.',
     price: 180, badge: 'Comfort Food', spice: 2,
-    img: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&h=350&fit=crop&q=80',
+    img: 'https://i0.wp.com/www.flavoursonplate.com/wp-content/uploads/2020/07/Dal-dhokli-featured-image.jpg?fit=1200%2C800&ssl=1',
     catLabel: 'Gujarati Special'
   },
   {
     id: 6, cat: 'gujarati', name: 'Kadhi Khichdi',
     desc: 'Creamy buttermilk kadhi served alongside perfectly cooked moong-dal khichdi.',
     price: 160, badge: null, spice: 1,
-    img: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse3.mm.bing.net/th/id/OIP.OqfmLzV8MApEbxU1gmFUKAHaEK?pid=Api&P=0&h=180',
     catLabel: 'Gujarati Special'
   },
   {
     id: 7, cat: 'gujarati', name: 'Fafda Gathiya',
     desc: 'Crispy gram-flour snacks served with tangy green chutney and raw papaya pickle.',
     price: 100, badge: null, spice: 1,
-    img: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&h=350&fit=crop&q=80',
+    img: 'https://img.freepik.com/premium-photo/crispy-fafda-with-sweet-jalebi-is-indian-snack-most-popular-gujarat-selective-focus_466689-71779.jpg?w=2000',
     catLabel: 'Gujarati Special'
   },
 
@@ -65,42 +65,42 @@ const MENU = [
     id: 8, cat: 'starters', name: 'Paneer Tikka',
     desc: 'Marinated cottage cheese cubes grilled in tandoor with peppers and spiced onions.',
     price: 280, badge: 'Popular', spice: 2,
-    img: 'https://images.unsplash.com/photo-1599487488310-c5b2082cdd9c?w=500&h=350&fit=crop&q=80',
+    img: 'https://sharethespice.com/wp-content/uploads/2024/02/Paneer-Tikka-Featured-720x720.jpg',
     catLabel: 'Starter'
   },
   {
     id: 9, cat: 'starters', name: 'Veg Spring Rolls',
     desc: 'Crispy pastry rolls filled with stir-fried veggies and Asian herbs.',
     price: 150, badge: null, spice: 1,
-    img: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500&h=350&fit=crop&q=80',
+    img: 'https://i.pinimg.com/originals/f5/63/86/f56386e8d550433ca98258c1c558006c.jpg',
     catLabel: 'Starter'
   },
   {
     id: 10, cat: 'starters', name: 'Hara Bhara Kabab',
     desc: 'Patties made from spinach, peas and spices, pan-fried to golden perfection.',
     price: 200, badge: null, spice: 1,
-    img: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&h=350&fit=crop&q=80',
+    img: 'https://img.freepik.com/premium-photo/shaam-savera-is-spinach-kofta-curry-where-stuffing-is-made-from-paneer-kofta-made-from-spinach_466689-85947.jpg?w=996',
     catLabel: 'Starter'
   },
   {
     id: 11, cat: 'starters', name: 'Crispy Corn',
     desc: 'Sweet corn tossed in butter, aromatic spices and fresh herbs.',
     price: 160, badge: "Kids' Fav", spice: 1,
-    img: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse1.mm.bing.net/th/id/OIP.J-Siz1IWl3oilM4pyPe1fQHaHa?pid=Api&P=0&h=180',
     catLabel: 'Starter'
   },
   {
     id: 12, cat: 'starters', name: 'Veg Manchurian',
     desc: 'Crispy veggie balls in a tangy-sweet Indo-Chinese sauce.',
     price: 180, badge: null, spice: 2,
-    img: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500&h=350&fit=crop&q=80',
+    img: 'https://cdn.scrambledchefs.com/wp-content/uploads/2020/07/Vegetarian-Manchurien-Square.jpg',
     catLabel: 'Starter'
   },
   {
     id: 13, cat: 'starters', name: 'Masala Papad',
     desc: 'Crispy papads topped with diced onions, tomatoes and signature chutneys.',
     price: 80, badge: null, spice: 1,
-    img: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&h=350&fit=crop&q=80',
+    img: 'http://i1.wp.com/kalimirchbysmita.com/wp-content/uploads/2016/09/Masala-Papad-02.jpg?resize=1024%2C733',
     catLabel: 'Starter'
   },
 
@@ -109,7 +109,7 @@ const MENU = [
     id: 14, cat: 'mains', name: 'Paneer Butter Masala',
     desc: 'Soft paneer cubes in a velvety tomato-butter gravy topped with fresh cream.',
     price: 300, badge: 'Bestseller', spice: 1,
-    img: 'https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=500&h=350&fit=crop&q=80',
+    img: 'https://img.freepik.com/premium-photo/delicious-paneer-butter-masala-photography_928503-851.jpg?w=2000',
     catLabel: 'Main Course'
   },
   {
