@@ -14,7 +14,7 @@ const MENU = [
     id: 1, cat: 'gujarati', name: 'Gujarati Thali',
     desc: 'Dal, Kadhi, 2 Sabji, Rice, 5 Rotis, Papad, Tangy Pickle & Special Shrikhand — a complete meal.',
     price: 399, badge: 'Bestseller', spice: 1,
-    img: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse4.mm.bing.net/th/id/OIP.Kn7Pb3Z4ejXvIeOz3xPWggHaEJ?pid=Api&P=0&h=180',
     catLabel: 'Gujarati Special'
   },
   {
