@@ -197,35 +197,35 @@ const MENU = [
     id: 26, cat: 'desserts', name: 'Kesar Shrikhand',
     desc: 'Strained yogurt sweetened with sugar and perfumed with saffron and cardamom.',
     price: 150, badge: 'Must Try', spice: 0,
-    img: 'https://tse1.mm.bing.net/th/id/OIP.23hlUN47JFKclHp7mKwJsgHaJ4?pid=Api&P=0&h=180',
+    img: 'https://tse2.mm.bing.net/th/id/OIP.NYoo1unx9r1oErsVJtMcOwHaFD?pid=Api&P=0&h=180',
     catLabel: 'Dessert'
   },
   {
     id: 27, cat: 'desserts', name: 'Gulab Jamun (2 pcs)',
     desc: 'Melt-in-mouth milk-solid dumplings soaked in rose-flavoured sugar syrup.',
     price: 100, badge: 'All-time Fav', spice: 0,
-    img: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse2.mm.bing.net/th/id/OIP.dluRtowiRWM9gcQXEwIEuAHaG9?pid=Api&P=0&h=180',
     catLabel: 'Dessert'
   },
   {
     id: 28, cat: 'desserts', name: 'Basundi',
     desc: 'Creamy reduced-milk dessert flavoured with saffron, cardamom and pistachio.',
     price: 140, badge: null, spice: 0,
-    img: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse2.mm.bing.net/th/id/OIP.TCkG27e4SHHV21yEBgJzpgHaHa?pid=Api&P=0&h=180',
     catLabel: 'Dessert'
   },
   {
     id: 29, cat: 'desserts', name: 'Gajar Halwa',
     desc: 'Classic carrot pudding slow-cooked with ghee, sugar, milk and dry fruits.',
     price: 120, badge: 'Winter Special', spice: 0,
-    img: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse3.mm.bing.net/th/id/OIP.KB8krEIjbRxGdUAJxnY1GgHaEK?pid=Api&P=0&h=180',
     catLabel: 'Dessert'
   },
   {
     id: 30, cat: 'desserts', name: 'Mohan Thal',
     desc: 'Traditional Gujarati gram-flour fudge made with pure ghee and topped with nuts.',
     price: 100, badge: null, spice: 0,
-    img: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse2.mm.bing.net/th/id/OIP.FAZO0uvUPEX2y6XtZOLfUQHaHa?pid=Api&P=0&h=1800',
     catLabel: 'Dessert'
   },
 
@@ -234,35 +234,35 @@ const MENU = [
     id: 31, cat: 'beverages', name: 'Mango Lassi',
     desc: 'Thick creamy yogurt blended with Alphonso mangoes — a summer icon.',
     price: 100, badge: 'Summer Hit', spice: 0,
-    img: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse1.mm.bing.net/th/id/OIP.HQEDZzhGVwB5heiL74wQAgHaHa?pid=Api&P=0&h=180',
     catLabel: 'Beverage'
   },
   {
     id: 32, cat: 'beverages', name: 'Chaas (Buttermilk)',
     desc: 'Refreshing spiced buttermilk with roasted cumin, ginger and coriander.',
-    price: 60, badge: "Gujarat's Own", spice: 1,
-    img: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=500&h=350&fit=crop&q=80',
+    price: 60, badge: "Gujarat's Own", spice: 0,
+    img: 'https://tse3.mm.bing.net/th/id/OIP.-67Min4AI2J4i6ZKQQekswHaNk?pid=Api&P=0&h=180',
     catLabel: 'Beverage'
   },
   {
     id: 33, cat: 'beverages', name: 'Masala Chai',
     desc: 'Strong ginger-cardamom tea brewed low and slow in whole milk.',
-    price: 50, badge: null, spice: 1,
-    img: 'https://images.unsplash.com/photo-1544025132-c9699b0e6f4c?w=500&h=350&fit=crop&q=80',
+    price: 50, badge: null, spice: 0,
+    img: 'https://tse3.mm.bing.net/th/id/OIP.DD4t0x1cq3SAq4PZvWABlgHaHa?pid=Api&P=0&h=180',
     catLabel: 'Beverage'
   },
   {
     id: 34, cat: 'beverages', name: 'Rose Sharbat',
     desc: 'Chilled rose-water drink with sabja seeds, fresh lime and a pinch of kala namak.',
     price: 90, badge: null, spice: 0,
-    img: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse1.mm.bing.net/th/id/OIP.FD5UwwSnXn5arWXIDfth3gHaLH?pid=Api&P=0&h=180',
     catLabel: 'Beverage'
   },
   {
     id: 35, cat: 'beverages', name: 'Fresh Lime Soda',
     desc: 'Zesty fresh lime with soda — served sweet, salty or mixed, your choice.',
     price: 80, badge: null, spice: 0,
-    img: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=500&h=350&fit=crop&q=80',
+    img: 'https://tse4.mm.bing.net/th/id/OIP.1nk6uop8QATB6iLeKWvjxwHaE8?pid=Api&P=0&h=180',
     catLabel: 'Beverage'
   },
 ];
